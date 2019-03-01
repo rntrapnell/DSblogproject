@@ -15,3 +15,6 @@ Libraries used
 Seaborn       Create plots and charts
 Numpy         For a few issues with numbers
 Pandas        Read csv, group/compare data
+
+Blog link
+https://medium.com/@rntrapnell/this-shocking-new-data-will-make-you-rethink-the-path-to-the-sexiest-job-of-2019-cbc0d1b42175
