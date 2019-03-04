@@ -15,7 +15,7 @@ Pandas        Read csv, group/compare data
 
 Methodology
 
-Business Understanding- Career change is a common thing today. This CNBC headline proclaims <a href="https://www.cnbc.com/2016/04/26/career-change-is-the-new-normal-of-working.html">"career change is the new normal of working."</a> A common statistic is the average person will have 5-7 careers in their lifetime though some would <a href="https://www.wsj.com/articles/SB10001424052748704206804575468162805877990"> consider this dubious.  Regardless of the actual statistics, the truth is career change is quite common and undergoing the process personally, I can relate to the concerns.
+Business Understanding- Career change is a common thing today. This CNBC headline proclaims <a href="https://www.cnbc.com/2016/04/26/career-change-is-the-new-normal-of-working.html">"career change is the new normal of working."</a> A common statistic is the average person will have 5-7 careers in their lifetime though some would <a href="https://www.wsj.com/articles/SB10001424052748704206804575468162805877990"> consider this dubious.</a> Regardless of the actual statistics, the truth is career change is quite common and undergoing the process personally, I can relate to the concerns.
 
 Data Science has often been the "sexiest job" to have. There is a lot of hype about it and many people seeking a new career are likely to be attracted to it. As I move into a data science career, I find myself wrestling with the questions listed in the motivation section above.
 
@@ -38,4 +38,4 @@ Thanks to Mark Lindsay for his review of the blog and helping me to refine the c
 
 Thanks to Kaggle for putting together such easy to use data. Clean data is such a joy to work with.
 
-Thanks to all the folks at Udacity who work to give us the coding, ML and other skills to succeed. 
+Thanks to all the folks at Udacity who work to give us the coding, ML and other skills to succeed.
