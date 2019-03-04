@@ -21,7 +21,7 @@ Data Science has often been proclaimed the "sexiest job" to have in the last few
 
 Data Understanding- To attempt to answer these questions, we'll look at <a href="https://www.kaggle.com/kaggle/kaggle-survey-2018"> The 2018 Kaggle Survey Data</a>, specifically the multipleChoiceResponses.csv file a csv with 23860 rows and 395 columns. The first row is the text of the question and the remaining rows each represent an individual survey participant. The columns represent the 50 questions asked of each respondent. When a question can have multiple answers selected each answer has it's own column.
 
-Data Preparation- The data we're presented is in great shape. In many cases it can be used as is, a great testament to the work Kaggle does to make the data usable. In the end two changes will be necessary for our work. 1) To remove the first row from the set. 2) To convert the answers to Question 9 from a str denoting a range of compensation to a int of the average of that range.
+Data Preparation- The data we're presented is in great shape. In many cases it can be used as is, which is a great testament to the work Kaggle does to make the data usable. In the end two changes will be necessary for our work. 1) To remove the first row from the set. 2) To convert the answers to Question 9 from a str denoting a range of compensation to an int of the average of that range.
 
 Modeling- A simple comparison of mean salary based on response to certain questions is sufficient to tell us what we need to know.
 
@@ -29,11 +29,12 @@ Results- Relating undergraduate majors to salary provided an unexpected result i
 
 Relating coding experience and ML experience to salary shows that both make you a high earner over time. But the point at which you are likely to earn more than the average worker with no skill in the area happens much faster with ML.
 
-Relating the answer to the question "Do you consider ML models to be "black boxes" with outputs that are difficult or impossible to explain?" yields an interesting if not (perhaps ironically) easy to interpret result. I take a stab at one possibility (that type of ML worked with has an affect) but there doesn't seem to be any data to back it up.
+Relating the answer to the question "Do you consider ML models to be "black boxes" with outputs that are difficult or impossible to explain?" yields an interesting but not (perhaps ironically) easy to interpret result. I take a stab at one possibility (that type of ML worked with has an affect) but there doesn't seem to be any data to back it up.
 
 Deploy- These insights are shared on a blog post found at https://medium.com/@rntrapnell/this-shocking-new-data-will-make-you-rethink-the-path-to-the-sexiest-job-of-2019-cbc0d1b42175
 
 Acknowledgements
+
 Thanks to Mark Lindsay for his review of the blog and helping me to refine the conclusions further.
 
 Thanks to Kaggle for putting together such easy to use data. Clean data is such a joy to work with.
