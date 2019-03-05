@@ -23,6 +23,10 @@ Data Understanding- To attempt to answer these questions, we'll look at <a href=
 
 Data Preparation- The data we're presented is in great shape. In many cases it can be used as is, which is a great testament to the work Kaggle does to make the data usable. In the end two changes will be necessary for our work. 1) To remove the first row from the set. 2) To convert the answers to Question 9 from a str denoting a range of compensation to an int of the average of that range.
 
+There are quite a few NaNs in the dataset. They exist for two reasons. 1) Question was excluded because of previous answer. 2) It represents an unselected response in questions where multiple options can be selected.
+
+I've chosen to simply leave these as is because including them would only clutter or confuse. For example the salary column has NaNs that represent people who indicated their job title is "Not Employed." While questions of employment rate could yield helpful conclusions they are probably best seperated from questions of yearly compensation. On the other hand NaN in the multiple selection columns allow us to focus on what was selected and ignore what wasn't.
+
 Modeling- A simple comparison of mean salary based on response to certain questions is sufficient to tell us what we need to know.
 
 Results- Relating undergraduate majors to salary provided an unexpected result in that CS majors were the second lowest average salary (only better than IT). When we removed current students (many weren't making money) and separate countries with low average salaries from countries with high average salaries the averages evened out quite a bit. We have some outliers but it would seem we should treat them as just that.
